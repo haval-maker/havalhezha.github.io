@@ -1,0 +1,60 @@
+body{
+   background-color: #34568b;
+   
+}
+img{
+    
+    border: 2px solid green;
+    border-radius: 1000px;
+    transition: 2s;
+}
+.img img{
+    margin-left: 589px;
+}
+.img h3{
+    margin-left: 545px;
+    font-family: 'Brush Script MT', cursive;
+    transition: 2s;
+}
+hr{
+    color: aqua;
+   stroke: aqua;
+}
+.links a button{
+    background-color: #AACB73;
+    border-style: dotted ;
+    border-color: red;
+    width: 500px;
+    height: 50px;
+    border-radius: 250px;
+    color: rgb(4, 31, 54);
+    margin-left: 28%;
+    box-shadow: wheat 0px 7px 29px 0px;
+    transition: 2s;
+    font-style: oblique;
+    
+
+}
+.links a button:host{
+    color: rgb(197, 17, 17);
+    
+    
+
+}
+    
+@media screen and (min-width: 600px) {
+    .img img {
+        margin-left: 20px;
+    }
+    .img h3{
+        margin-left: 15px;
+    }
+   body{
+    zoom: 3;
+   }
+   .links a button{
+    margin-left: 10px;
+    width: 300px;
+   }
+    
+  }
